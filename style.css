@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    scroll-behavior: smooth;
+}
+
+.main {
+    width: 100%;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100%;
+}
+
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #FO8080;
+    top: 0;
+    left: 0;
+    padding: 15px 0;
+    z-index: 100;
+}
+.icon {
+    float: left;
+    color:red;
+    font-size: 24px;
+    margin-left: 20px;
+}
+.menu {
+    float: right;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.menu ul li a {
+    color:ORANGE;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu ul li a:hover {
+    background-color:FFB6C1;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+section {
+    padding: 100px 20px;
+    min-height: 100vh;
+}
+#home {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    text-align: center;
+}
+#services {
+    background: linear-gradient(135deg, #f7971e, #ffd200);
+    color: white;
+    text-align: center;
+}
+#about {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    color: white;
+}
+#contact {
+    background: linear-gradient(135deg, #9c27b0, #e040fb);
+    color: white;
+}
+#login {
+    background: linear-gradient(135deg, #00b09b, #96c93d);
+    color: white;
+    text-align: center;
+}
+
+
+.center {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+}
+.left {
+    display: block;
+    margin-left: 5%;
+    width: 40%;
+}
+
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+form input, form textarea {
+    background-color: #f5f5f5;
+    color: #333;
+}
+form button {
+    background-color: #333;
+    color: pink;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #555;
+}
